@@ -1,3 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-var pattern = {};
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+console.log("1 && 2 = "+(1 && 2));
+const executableName = getExecutableName(channel, appName);
+const uniqueArr = (arr) => [...new Set(arr)];
