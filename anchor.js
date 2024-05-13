@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const fullName = name || 'buddy';
