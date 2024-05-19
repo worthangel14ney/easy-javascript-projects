@@ -1,2 +1,2 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const fullName = name || 'buddy';
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
