@@ -1,3 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const minNumber = arr => Math.min(...arr);
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+console.log(1 +  -"1" + "2");
