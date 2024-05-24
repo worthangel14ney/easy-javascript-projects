@@ -1,2 +1,2 @@
-console.log(false == '0');
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
