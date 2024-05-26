@@ -1,2 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const currentDate = () => new Date().toLocaleDateString('en-US');
