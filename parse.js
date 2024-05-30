@@ -1,1 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
+const isEmptyArray = arr => !arr.length;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const allResults = await Promise.all(items.map(async (item) => {}));
