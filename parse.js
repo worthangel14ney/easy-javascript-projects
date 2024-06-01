@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const merge = (a, b) => [...a, ...b];
