@@ -1,1 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
+const channelName = getChannelName(channel);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
