@@ -1,2 +1,2 @@
-const channelName = getChannelName(channel);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const uniqueArray = arr => [...new Set(arr)];
