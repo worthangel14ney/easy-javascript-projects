@@ -1,1 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
+const isTabInView = () => !document.hidden;
+console.log(typeof typeof 1);
