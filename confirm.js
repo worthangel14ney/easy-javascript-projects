@@ -1,2 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const uniqueArray = arr => [...new Set(arr)];
+console.log(1 +  "2" + "2");
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
