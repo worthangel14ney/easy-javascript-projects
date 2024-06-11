@@ -1,2 +1,1 @@
-const isTabInView = () => !document.hidden;
-console.log(typeof typeof 1);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
