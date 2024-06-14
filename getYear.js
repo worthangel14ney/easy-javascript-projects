@@ -1,2 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const result = await makeHttpRequest(url);
