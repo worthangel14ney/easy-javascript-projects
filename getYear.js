@@ -1,2 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const result = await makeHttpRequest(url);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const fullName = name || 'buddy';
