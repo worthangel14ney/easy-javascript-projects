@@ -1,3 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const fullName = name || 'buddy';
+const uniqueArr = (arr) => [...new Set(arr)];
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log("0 && 1 = "+(0 && 1));
