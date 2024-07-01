@@ -1,1 +1,1 @@
-const randomBoolean = () => Math.random() >= 0.5;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
