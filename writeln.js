@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-console.log(+"1" +  "1" + "2");
+function myAPITS(someString: string, someNum: number) { ... };
+const results = await Promise.all(resultingPromises);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
