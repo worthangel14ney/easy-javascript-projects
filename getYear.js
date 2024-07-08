@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-console.log(1 +  -"1" + "2");
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const results = await Promise.all(resultingPromises);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
