@@ -1,3 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const randomString = () => Math.random().toString(36).slice(2);
+var c = new Counter(); c.add(); c.add(); c.add();
+const uniqueArr = (arr) => [...new Set(arr)];
