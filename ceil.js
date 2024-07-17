@@ -1,2 +1,1 @@
-const merge = (a, b) => a.concat(b);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
