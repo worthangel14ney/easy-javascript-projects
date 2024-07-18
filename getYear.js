@@ -1,3 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const results = await Promise.all(resultingPromises);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const goToTop = () => window.scrollTo(0, 0);
+const updated = numbers.filter(element => element > 6);
