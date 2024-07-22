@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const results = await Promise.all(resultingPromises);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
