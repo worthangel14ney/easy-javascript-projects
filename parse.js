@@ -1,3 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const randomBoolean = () => Math.random() >= 0.5;
+const executableName = getExecutableName(channel, appName);
