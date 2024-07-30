@@ -1,1 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isEmptyArray = arr => !arr.length;
