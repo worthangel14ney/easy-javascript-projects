@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-console.log("1 || 2 = "+(1 || 2));
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const isTabInView = () => !document.hidden;
+const toggleBool = () => (bool = !bool);
