@@ -1,2 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const isEmptyArray = arr => !arr.length;
+const merge = (a, b) => a.concat(b);
+var pattern = {};
+console.log("0 || 1 = "+(0 || 1));
