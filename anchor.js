@@ -1,3 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const isTabInView = () => !document.hidden;
-const toggleBool = () => (bool = !bool);
+const channelName = getChannelName(channel);
+const getRandomBoolean = () => Math.random() >= 0.5;
+const fullName = name || 'buddy';
